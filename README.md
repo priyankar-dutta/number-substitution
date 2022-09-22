@@ -54,7 +54,7 @@ If more configurable values are required to be introduced it can be done by addi
 
 The appsettings.json file for the 2nd and 3rd problems has an additional setting to allow more numbers to be added to the override list. The concept is same. 
 
-## An examples with modified appsettings.json files
+## An example with modified appsettings.json files
 
 Problem 3: Inputs 1 and 35
 
