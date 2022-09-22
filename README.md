@@ -1,11 +1,15 @@
 # number-substitution
 This repository is the developed solution for the problem set for Senior Technical Lead evaluation for Airportr. There are 3 separate folders in the repository:
+
 NumberSubstitution.First - Solution for the first problem
+
 NumberSubstitution.Second - Solution for the second problem
+
 NumberSubstitution.Third - Solution for the third problem
 
 ## Pre-requisites
 .NET 6 is required for building and running the solution in Visual Studio
+
 A connection is also required to Nuget package library for downloading dependent Nuget packages for the solution
 
 ## Assumptions made while building the solution
@@ -22,6 +26,7 @@ A connection is also required to Nuget package library for downloading dependent
 ## Explaining the appsettings.json file
 The appsettings.json file has been introduced to allow for changing and introducing more configurable data for the problem
 For example: For NumberSubstitution.First the appsettings.json file has the following:
+
 `
 {
   "AppSettings": {
@@ -32,7 +37,9 @@ For example: For NumberSubstitution.First the appsettings.json file has the foll
   }
 }
 `
+
 If more configurable values are required to be introduced it can be done by adding more values to the dictionary. An example below where 2 has been added as an extra value and the output for 5 has been changed:
+
 `
 {
   "AppSettings": {
@@ -44,11 +51,15 @@ If more configurable values are required to be introduced it can be done by addi
   }
 }
 `
+
 The appsettings.json file for the 2nd and 3rd problems has an additional setting to allow more numbers to be added to the override list. The concept is same. 
 
 ## Some Examples with modified appsettings.json files
-Problem 3: Inputs 1 and 30
+
+Problem 3: Inputs 1 and 35
+
 appsettings.json 
+
 `
 {
   "AppSettings": {
@@ -64,8 +75,13 @@ appsettings.json
   }
 }
 `
+
 Output:
-Main: 
+
+Main:
+
 1 mazz lucky unlucky buzz mazzfizz 7 mazz fizz mazzbuzz 11 mazzfizz lucky unlucky fizzbuzz mazz 17 mazzfizz 19 mazzbuzz fizz mazz lucky unlucky buzz mazz fizz mazz 29 lucky lucky lucky lucky luckyunlucky lucky
+
 Summary:
+
 integer: 6 mazz: 6 lucky: 8 unlucky: 3 buzz: 2 mazzfizz: 3 fizz: 3 mazzbuzz: 2 fizzbuzz: 1 luckyunlucky: 1
