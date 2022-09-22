@@ -27,7 +27,7 @@ A connection is also required to Nuget package library for downloading dependent
 The appsettings.json file has been introduced to allow for changing and introducing more configurable data for the problem
 For example: For NumberSubstitution.First the appsettings.json file has the following:
 
-`
+```json
 {
   "AppSettings": {
     "NumberReplacementDictionaryData": {
@@ -36,11 +36,11 @@ For example: For NumberSubstitution.First the appsettings.json file has the foll
     }
   }
 }
-`
+```
 
 If more configurable values are required to be introduced it can be done by adding more values to the dictionary. An example below where 2 has been added as an extra value and the output for 5 has been changed:
 
-`
+```json
 {
   "AppSettings": {
     "NumberReplacementDictionaryData": {
@@ -50,7 +50,7 @@ If more configurable values are required to be introduced it can be done by addi
     }
   }
 }
-`
+```
 
 The appsettings.json file for the 2nd and 3rd problems has an additional setting to allow more numbers to be added to the override list. The concept is same. 
 
@@ -60,7 +60,7 @@ Problem 3: Inputs 1 and 35
 
 appsettings.json 
 
-`
+```json
 {
   "AppSettings": {
     "NumberReplacementDictionaryData": {
@@ -74,7 +74,7 @@ appsettings.json
     }
   }
 }
-`
+```
 
 ### Output:
 
