@@ -1,5 +1,5 @@
 # number-substitution
-This repository is the developed solution for the problem set for Senior Technical Lead evaluation for Airportr. There are 3 separate folders in the repository:
+This repository is the developed solution for the problem set for a HackerRank contest. There are 3 separate folders in the repository:
 
 NumberSubstitution.First - Solution for the first problem
 
